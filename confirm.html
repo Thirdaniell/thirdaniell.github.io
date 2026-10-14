@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FTJ</title>
+<style>
+  body { background: #0a0a0a; color: #888; font-family: monospace;
+    font-size: 12px; display: flex; align-items: center; justify-content: center;
+    min-height: 100vh; margin: 0; }
+</style>
+</head>
+<body>
+<div>Confirming...</div>
+<script>
+  const hash = window.location.hash;
+  if (hash) {
+    window.location.replace(
+      'https://thirdaniell.github.io/dtjrl.github.io/confirm.html' + hash
+    );
+  } else {
+    window.location.replace('https://thirdaniell.github.io/dtjrl.github.io/confirm.html');
+  }
+</script>
+</body>
+</html>
